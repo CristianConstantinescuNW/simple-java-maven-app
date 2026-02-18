@@ -31,5 +31,10 @@ pipeline {
                 echo 'Just added another message with Job Complete!'
             }
         }
+        stage('Complete #3') {
+            steps {
+                echo 'Just added another message with Job Complete #3!'
+            }
+        }
     }
 }
