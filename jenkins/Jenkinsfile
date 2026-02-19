@@ -28,7 +28,7 @@ pipeline {
         }
         stage('Complete #2') {
             steps {
-                echo 'Just added another message with Job Complete!'
+                echo 'Just added another message with Job Complete #2!'
             }
         }
         stage('Complete #3') {
